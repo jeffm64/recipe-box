@@ -23,7 +23,7 @@ var App = React.createClass({
     
     render: function() {
         return (
-            <div class="site-content">
+            <div className="site-content">
                 <Recipe recipeTitle={window.localStorage.getItem("recipe name" + window.localStorage.getItem("counter"))} />
             
                 //renders popup box if the state for it is true
